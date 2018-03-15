@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Psychic-Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="assets/Javascript/game.js"></script>
+
+</head>
+
+<body onload="hold();">
+
+    <div class="card mb-3">
+        <img class="card-img-top" src="assets/images/psychic.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">The Psychic Game</h5>
+            <p class="card-text">Test your Psychic abilities and see if you can guess what the computer is thinking.
+            </p>
+        </div>
+    </div>
+    <!--
+    <div class="container">
+        <form id="difficultySelector">
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="easy" value="15">Easy
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="medium" value="10"> Medium
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="hard" value="5">Hard
+                </label>
+            </div>
+        </form>
+    </div>
+-->
+    <div class="row">
+        <div class="col">
+            Below are your results
+            <p class="wins">Wins:
+                <span id="wins"></span>
+            </p>
+            <p class="losses">Losses:
+                <span id="losses"></span>
+            </p>
+            <br/>
+            <p class="guessesLeft">Guesses Left:
+                <span id="guessesLeft"></span>
+            </p>
+            <p>
+            </p>
+            <p class="guessedLetters">Letters you have tried so far:
+                <span id="guessed-letters"></span>
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer position-relative text-center">
+        <div class="container">
+            <span class="text-muted">Copyright Roberto Benites 2018</span>
+        </div>
+    </footer>
+
+    <!--BootStrap links-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
